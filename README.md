@@ -10,11 +10,6 @@ Este proyecto es una aplicación Android que implementa medidas de seguridad par
 - Cifrado de datos sensibles: Se recomienda aplicar cifrado para la protección de datos sensibles debido a la configuración allowBackup=true.
 - Comunicación segura (HTTPS): Actualmente, no se observó uso de HTTPS; implementar TLS/SSL es necesario.
 - Validación y sanitización de entradas: Se debe asegurar que se saniticen todas las entradas de los usuarios para prevenir inyecciones.
-## Documentación
-- [Vulnerabilidades](vulnerabilities.md)
-- [Best Practices](best_practices.md)
-- [Security Tips](security_tips.md)
-- [Security Improvement Program](security_improvement_program.md)
 ## Cómo Ejecutar la Aplicación de Forma Segura
 1. Clonar el repositorio
 2. Importar el proyecto en Android Studio
